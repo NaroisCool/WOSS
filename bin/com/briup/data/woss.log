@@ -1,0 +1,15 @@
+[woss_All] -2018-07-03 14:21:21,225 [INFO]  -------加载备份文件
+[woss_All] -2018-07-03 14:21:21,309 [INFO]  -------进入采集模块
+[woss_All] -2018-07-03 14:21:21,310 [INFO]  -------从4100932开始采集
+[woss_All] -2018-07-03 14:21:21,310 [INFO]  -------开始采集数据
+[woss_All] -2018-07-03 14:21:21,311 [INFO]  -------
+[woss_All] -2018-07-03 14:21:21,314 [INFO]  -------
+java.lang.NullPointerException
+	at com.briup.client.impl.GatherImpl.gather(GatherImpl.java:184)
+	at com.briup.test.ClientTest.main(ClientTest.java:14)
+[woss_All] -2018-07-03 14:21:21,748 [INFO]  -------进入入库模块
+[woss_All] -2018-07-03 14:21:21,748 [INFO]  -------开始入库
+[woss_All] -2018-07-03 14:21:21,749 [INFO]  -------
+java.lang.NullPointerException
+	at com.briup.server.impl.DBStoreImpl.save(DBStoreImpl.java:44)
+	at com.briup.server.ServerHandler.run(ServerHandler.java:28)

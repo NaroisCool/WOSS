@@ -1,0 +1,4 @@
+[woss_server] -2018-07-03 14:21:21,749 [INFO] -------
+java.lang.NullPointerException
+	at com.briup.server.impl.DBStoreImpl.save(DBStoreImpl.java:44)
+	at com.briup.server.ServerHandler.run(ServerHandler.java:28)
